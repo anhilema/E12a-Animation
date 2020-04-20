@@ -34,9 +34,9 @@ Select the Add Node… button and choose Animation. Rename the node Idle, and se
 
 Select the Add Node… button and choose Animation. Rename the node Run, and select the film canister icon. Select Run
 
-Select the Add Node… button and choose Blend2. From the dot on the right side of the Idle animation, draw a connection to the "in" dot on Blend2. Draw a connection from the Run animation to the "blend" dot on Blend2. Draw a connection from the dot on the right side of Blend2 to Output.
+Select the Add Node… button and choose Blend2. From the dot on the right side of the Idle animation, draw a connection to the "in" dot on Blend2. Draw a connection from the Run animation to the "blend" dot on Blend2. Draw a connection from the dot on the right side of Blend2 to Output. Rename the Blend2 node as Idle_Run
 
-As you change the numeric value in Blend2 (between 0 and 1, either typing in a new number or changing the slider), you should see the character transition between idling and running. If the character only takes a few steps, you will need to make sure you have changed the Run.anim to be looping.
+As you change the numeric value in Idle_Run (between 0 and 1, either typing in a new number or changing the slider), you should see the character transition between idling and running. If the character only takes a few steps, you will need to make sure you have changed the Run.anim to be looping.
 
 Save and close the Character scene, and right-click on the Character node. Attach Script. Feel free to save it as res://Character.gd, and select the Empty Template.
 
